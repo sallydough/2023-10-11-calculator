@@ -1,0 +1,18 @@
+button {
+  padding:30px;
+  font-size:30px;
+  margin: 10px;
+}
+
+input {
+  font-size: 20px;
+  display: block;
+  padding: 30px;
+  display: inline-block
+
+}
+
+#simple-calc {
+  margin:50px;
+  margin-left: 0;
+}

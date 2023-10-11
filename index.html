@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Console Test</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="myDiv">
+    <h1>Calculator</h1>
+  </div>
+
+  <input id="firstNameInput" type="text" value="Write text here" onchange="firstNameChanged()">
+    <div id="calc-buttons">
+  <br>
+  <button input="1" onclick="clickedButton()">1</button>
+  <button input="1" onclick="clickedButton()">2</button>
+  <button input="1" onclick="clickedButton()">3</button>
+  <br>
+  <button input="1" onclick="clickedButton()">4</button>
+  <button input="1" onclick="clickedButton()">5</button>
+  <button input="1" onclick="clickedButton()">6</button>
+  <br>
+  <button input="1" onclick="clickedButton()">7</button>
+  <button input="1" onclick="clickedButton()">8</button>
+  <button input="1" onclick="clickedButton()">9</button>
+  <br>
+  <button input="1" onclick="clickedButton()">0</button>
+  <button input="1" onclick="clickedButton()">Cl</button>
+<br>
+</div>
+
+
+<div id="simple-calc">
+  <h1>Simple Calculator</h1>
+<input id="firstNum" type="number">
+<input id="secondNum" type="number">
+
+<input type="button" value="+" onclick="add()">
+<input type="button" value="-" onclick="subtract()">
+<input type="button" value="x" onclick="multiply()">
+<input type="button" value="/" onclick="divide()">
+<input type="answer" id="answer" value="answer">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
